@@ -1,9 +1,10 @@
 {
   "name": "dupstart",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,11 +13,12 @@
   },
   "author": "",
   "license": "ISC",
-  "bin": {
-    "dupstart": "./cli.js"
-  },
   "bugs": {
     "url": "https://github.com/hassandg/dupstart/issues"
   },
-  "homepage": "https://github.com/hassandg/dupstart#readme"
+  "homepage": "https://github.com/hassandg/dupstart#readme",
+  "bin": {
+    "dupstart": "./dupstart"
+  },
+  "dependencies": {}
 }
