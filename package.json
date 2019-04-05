@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "dupstart": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/hassandg/dupstart/issues"
   },
